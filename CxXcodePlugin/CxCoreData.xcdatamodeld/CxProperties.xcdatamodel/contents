@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="CxData">
+    <entity name="CxEnvironmentSettings" representedClassName="CxEnvironmentSettings" syncable="YES" codeGenerationType="class">
+        <attribute name="curCxPropsID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="CxProperties" representedClassName="CxProperties" syncable="YES" codeGenerationType="class">
+        <attribute name="appName" optional="YES" attributeType="String"/>
+        <attribute name="baseURL" optional="YES" attributeType="String"/>
+        <attribute name="cxFlowPath" optional="YES" attributeType="String"/>
+        <attribute name="cxFlowType" optional="YES" attributeType="String"/>
+        <attribute name="cxScanType" optional="YES" attributeType="String"/>
+        <attribute name="filterCategory" optional="YES" attributeType="String"/>
+        <attribute name="filterSeverityHigh" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="filterSeverityInfo" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="filterSeverityLow" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="filterSeverityMedium" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="filterStatusConfirmed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="filterStatusNew" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="incremental" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="label" optional="YES" attributeType="String"/>
+        <attribute name="multitenant" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="presetName" optional="YES" attributeType="String"/>
+        <attribute name="projectName" optional="YES" attributeType="String"/>
+        <attribute name="proxyServer" optional="YES" attributeType="String"/>
+        <attribute name="proxyServerPassword" optional="YES" attributeType="String"/>
+        <attribute name="proxyServerUser" optional="YES" attributeType="String"/>
+        <attribute name="scanMethod" optional="YES" attributeType="String"/>
+        <attribute name="scanPreset" optional="YES" attributeType="String"/>
+        <attribute name="sourcePath" optional="YES" attributeType="String"/>
+        <attribute name="team" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <attribute name="userProxyServer" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CxScanReport" representedClassName="CxScanReport" syncable="YES" codeGenerationType="class">
+        <attribute name="filename" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="label" optional="YES" attributeType="String"/>
+        <attribute name="when" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="CxEnvironmentSettings" positionX="-63" positionY="108" width="128" height="58"/>
+        <element name="CxProperties" positionX="-63" positionY="-18" width="128" height="478"/>
+        <element name="CxScanReport" positionX="-63" positionY="108" width="128" height="103"/>
+    </elements>
+</model>
