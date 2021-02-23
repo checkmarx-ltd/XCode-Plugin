@@ -7,6 +7,6 @@
 //
 import Foundation
 
-extension CxScanReport: Identifiable {
+extension CxScanReport {
 
 }

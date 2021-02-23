@@ -7,7 +7,7 @@
 //
 import Foundation
 
-extension CxProperties: Identifiable {
+extension CxProperties {
   public var uiBaseURL: String {
     get { return self.baseURL ?? "" }
     set {
